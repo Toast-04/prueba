@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto grupal</title>
-    <link rel="stylesheet" href="/web/sources/styles/menu.css">
-    <link rel="stylesheet" href="/web/sources/styles/styles.css">
+    <!-- Rutas relativas, ya que todo está en la raíz -->
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script src="menu.js"></script>
     <div id="menu" class="menu"></div>
+    <!-- Coloca el script después del div para asegurarte de que exista al cargar -->
+    <script src="menu.js"></script>
 </body>
 </html>
